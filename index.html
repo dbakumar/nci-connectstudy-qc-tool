@@ -4,12 +4,15 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 <body>
 <!-- Sidebar -->
 <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
   <h3 class="w3-bar-item">API</h3>
-  <a href="#" class="w3-bar-item w3-button">getParticipantToken</a>
+  <a href="#" class="w3-bar-item w3-button" id="menugetParticipantToken">getParticipantToken</a>
   <a href="#" class="w3-bar-item w3-button">submitParticipantsData</a>
   <a href="#" class="w3-bar-item w3-button">updateParticipantData</a>
 </div>
@@ -19,15 +22,19 @@
 <div style="margin-left:25%">
 
   <div class="w3-container w3-teal">
-    <h1>NCI Connect Study - API QC Tool </h1>
+    <h5>NCI Connect Study - API QC Tool </h5> <button class="w3-btn w3-blue-grey">Register</button>
   </div>
   
   
   <div class="w3-container">
-    <input class="w3-input w3-border-0" type="text">
+    <input class="w3-input w3-border-0" type="textarea">
+    
   </div>
   
   </div>
+
+
+  
 
 </body>
 </html>
